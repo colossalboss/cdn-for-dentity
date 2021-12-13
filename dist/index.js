@@ -6,3 +6,7 @@ function logSomeThing(message) {
 const greet = () => {
     console.log("Goodd morning");
 }
+
+const verifyUser = (user) => {
+    return `User is ${user}`;
+}
